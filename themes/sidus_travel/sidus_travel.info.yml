@@ -1,0 +1,72 @@
+name: Sidus Travel Theme
+core: 8.x
+description: 'Sidus Travel Drupal 9 Responsive Theme. Developed & Designed by <a href=https://sidus.in target="_blank">Sidus Technologies</a><br/>Contact us for Drupal Design & Development <a href=mailto:info@sidus.in>info@sidus.in</a>'
+package: core
+type: theme
+base theme: false
+core_version_requirement: ^8 || ^9
+
+#Libraries
+libraries:
+  - sidus_travel/bootstrap
+  - sidus_travel/icofont
+  - sidus_travel/boxicons
+  - sidus_travel/venobox
+  - sidus_travel/remixicon
+  - sidus_travel/owl
+  - sidus_travel/aos
+  - sidus_travel/easing
+  - sidus_travel/waypoints
+  - sidus_travel/counterup
+  - sidus_travel/isotope-layout
+  - sidus_travel/php-email-form
+  - sidus_travel/global-components
+
+
+#Regions
+regions:
+  header: 'Header'
+  primary_menu_vertical: 'Primary Menu Vertical'
+  primary_menu: 'Primary Menu'
+  slider: 'Slider Section'
+  welcome_text: 'Welcome Text'
+  top_first: 'Top First Container'
+  top_second: 'Top Second Container'
+  top_third: 'Top Third Container'
+  highlighted: 'Highlighted'
+  page_title: 'Page Title'
+  breadcrumb: 'Breadcrumb'
+  content_top: 'Top Section of Content'
+  content: 'Content'
+  sidebar_first: 'Left Sidebar'
+  sidebar_second: 'Right Sidebar'
+  content_bottom_first: 'Content Bottom First Section'
+  content_bottom_second: 'Content Bottom Second Section'
+  content_bottom_third: 'Content Bottom Third Section'
+  clients: 'Our Clients'
+  features: 'Our Features'
+  services: 'Our Services'
+  testimonials: 'Our Testimonials'
+  portfolio: 'Our Portfolio'
+  team: 'Our Team'
+  contact_us: 'Contact Us Section'
+  bottom_first: 'Bottom First Container'
+  bottom_second: 'Bottom Second Container'
+  bottom_third: 'Bottom Third Container'
+  bottom_forth: 'Bottom Forth Container'
+  footer_first: 'Footer First Container'
+  footer_second: 'Footer Second Container'
+  footer_third: 'Footer Third Container'
+  footer_forth: 'Footer Forth Container'
+  footer_copyright: 'Footer Copyright'
+  auto_hidden_block: 'Auto Hidden Blocks'
+
+# Information added by Drupal.org packaging script on 2020-06-20
+# version: '9.x-1.0'
+# project: 'sidus_travel'
+
+
+# Information added by Drupal.org packaging script on 2020-08-16
+version: '1.0.x-dev'
+project: 'sidus_travel'
+datestamp: 1597597089
